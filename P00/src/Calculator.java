@@ -15,9 +15,6 @@ public class Calculator {
 	}
 	
 	public int divide(int a, int b) {
-		if (b == 0) {
-			System.out.println("Denominator is 0");
-		}
 		return a / b;
 	}
 	

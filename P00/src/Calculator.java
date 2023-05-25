@@ -21,4 +21,11 @@ public class Calculator {
 		return a / b;
 	}
 	
+	public double exponential(int a, int b) {
+		
+		double result = Math.pow(a, b);
+		
+		return result;
+	}
+	
 }

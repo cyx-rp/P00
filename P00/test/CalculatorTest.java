@@ -73,6 +73,20 @@ public class CalculatorTest {
 		assertEquals(actual, expected);
 		
 	}
+	
+	@SuppressWarnings("deprecation")
+	@Test
+	public final void testExponent() {
+		int a = 2;
+		int b = 3;
+		
+		Calculator cal = new Calculator();
+		double actual = cal.exponential(a, b);
+		
+		int expected  = 8;
+		assertEquals(actual, expected, 0.1);
+		
+	}
 
 	@After
 	public void tearDown() throws Exception {
